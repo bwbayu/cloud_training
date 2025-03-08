@@ -40,8 +40,8 @@ for batch_size in batch_sizes:
             # set up hyperparamter
             config = {
                 "df": df,
-                # "model_name": "indobenchmark/indobert-lite-base-p2",
-                "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+                "model_name": "indobenchmark/indobert-lite-base-p2",
+                # "model_name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
                 # "model_name": "all-MiniLM-L6-v2",
                 "batch_size": batch_size,
                 "learning_rate": lr,
